@@ -1,0 +1,382 @@
+.homepage {
+  position: absolute;
+  width: 1201px;
+  height: 1539px;
+  left: 240px;
+  top: 0px;
+}
+
+.header{
+    position: absolute;
+    width: 1201px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+
+    /* Neutral / White */
+
+    background: #FFFFFF;
+    box-shadow: 4px 0px 16px 10px rgba(30, 30, 30, 0.08);
+    transform: matrix(1, 0, 0, 0, 0);
+}
+
+.search-icon{
+    position: absolute;
+    width: 22.26px;
+    height: 22px;
+    left: 24.11px;
+    top: 21px;
+
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 1;
+    cursor: pointer;
+}
+
+.search{
+    position: absolute;
+    width: 265.13px;
+    height: 22px;
+    left: 60.54px;
+    top: 21px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+    /* identical to box height */
+    outline: none;
+    border: none;
+    color: #000000;
+
+    opacity: 0.3;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance:none;
+  }
+
+.close-icon{
+    position: absolute;
+    width: 15px;
+    height: 18px;
+    left: 21px;
+    top: 21px;
+
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 1;
+}
+
+.search-text{
+    position: absolute;
+    width: 48px;
+    height: 22px;
+    left: 57px;
+    top: 21px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.bell-wrapper{
+
+position: absolute;
+width: 25.3px;
+height: 25px;
+left: 1135.22px;
+top: 18px;
+
+background: #EFF3F9;
+border-radius: 2px;
+
+}
+
+.bell-icon{
+    position: absolute;
+width: 11.13px;
+height: 12px;
+left: 7px;
+top: 6px;
+
+font-family: 'Font Awesome 5 Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height */
+
+
+color: #000000;
+
+opacity: 1;
+background: url(../images/bell.png);
+}
+
+.notify{
+    box-sizing: border-box;
+
+position: absolute;
+width: 8.1px;
+height: 8px;
+left: 21.25px;
+bottom: 21px;
+
+background: #F44336;
+border: 1px solid #FFFFFF;
+border-radius: 40px;
+}
+
+.harrow{
+    position: absolute;
+width: 25.3px;
+height: 25px;
+left: 1168.62px;
+top: 18px;
+
+background: url(../images/Logo.png);
+border-radius: 2px;
+}
+
+.home-image{
+    position: absolute;
+    width: 1200px;
+    height: 568.53px;
+    left: 0px;
+    top: 57px;
+
+    background: url(../images/hero-image.png);
+}
+
+.home-image2{
+    position: absolute;
+    width: 1200px;
+    height: 250px;
+    left: 0px;
+    top: 626px;
+
+    background: url(../images/Screenshot\ 2022-07-01\ at\ 1.46.png);
+}
+
+.home-image3{
+    position: absolute;
+    width: 1200px;
+    height: 590.83px;
+    left: 0px;
+    top: 876px;
+
+    background: url(../images/Screenshot\ 2022-07-01\ at\ 1.47.png);
+}
+
+.top-head{
+   position: absolute;
+   top: 108px;
+   left: 57px;
+}
+
+.side-head{
+    position: absolute;
+    width: 148px;
+    height: 30px;
+    left: 878px;
+    top: 0px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.5;
+}
+
+.title{
+    position: absolute;
+    width: 179px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.5;
+}
+
+.t-row{
+    position: relative;
+    top: 154px;
+    left: 57px;
+}
+
+
+.image{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.company-name{
+    position: relative;
+    left: 10px;
+    width: 500px;
+}
+
+.com-title{
+    position: absolute;
+    left: 22px;
+
+    top: 0px;
+
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.com-web{
+    position: relative;
+    left: 20px;
+    top: 3px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+color: #000000;
+
+opacity: 0.5;
+}
+
+.btn{
+    position: relative;
+    left: 100px;
+}
+
+.btn-track{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 53px;
+    height: 30px;
+    left: 400px;
+    top: 5px;
+    
+    border: 1px solid #FF6059;
+    border-radius: 2px;
+}
+
+.butn{
+    position: absolute;
+    width: 32px;
+    height: 16px;
+    left: 11px;
+    top: 7px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FF6059;
+
+}
+
+.track{
+
+    position: absolute;
+    width: 127px;
+    height: 19px;
+    left: 890px;
+    top: 47px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
+
+.bulk{
+    position: absolute;
+    width: 134px;
+    height: 19px;
+    left: 890px;
+    top: 77px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.manage{
+    position: absolute;
+    width: 121px;
+    height: 19px;
+    left: 890px;
+    top: 107px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
+
